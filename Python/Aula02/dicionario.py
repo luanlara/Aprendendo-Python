@@ -13,7 +13,7 @@ print(pessoa['cursos'])
 print(pessoa['cursos'][2])
 
 print(pessoa.keys()) #imprimir as chaves
-print(pessoa.values()) # imprmir os valores
+print(pessoa.values()) # imprimir os valores
 print(pessoa.items()) # imprimir os itens
 
 items = list(pessoa.items())

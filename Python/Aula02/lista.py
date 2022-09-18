@@ -1,7 +1,7 @@
 lista = []
 print(type(lista))
 
-print(len(lista)) # len = tamanho
+print(len(lista)) # len = tamanho da lista em números de posições
 
 lista.append(1) # append = adicionar no final da lista
 lista.append(5)
@@ -14,12 +14,12 @@ nova_lista = [1, 5, 'Ana', 'Bia',['C#', 'Python', 'Node'], 3.14]
 print(nova_lista)
 print(nova_lista[3])
 print(nova_lista[4])
-print(nova_lista[4][1][3])
+print(nova_lista[4][1][3]) #No elemento de índice 4, o elemento de índice 1, o caractere de índice 3 = "h"
 
 print(nova_lista)
 nova_lista.remove(5) # () = elemento 
 print(nova_lista)
-nova_lista.reverse()
+nova_lista.reverse() #inverte as posições da lista
 print(nova_lista)
 
 del nova_lista[2] # del = deletar
