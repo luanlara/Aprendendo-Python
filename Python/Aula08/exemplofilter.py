@@ -1,6 +1,5 @@
 from functools import reduce
 
-
 pessoas = [
     {'nome': 'Pedro', 'idade': 11},
     {'nome': 'Mariana', 'idade': 18},
